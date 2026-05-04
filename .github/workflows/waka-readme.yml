@@ -48,6 +48,7 @@ jobs:
               query = urllib.parse.urlencode({
                   "start": start_date.isoformat(),
                   "end": today.isoformat(),
+                  "timezone": "Asia/Shanghai",
               })
               req = urllib.request.Request(
                   f"https://api.wakatime.com/api/v1/users/current/summaries?{query}",
