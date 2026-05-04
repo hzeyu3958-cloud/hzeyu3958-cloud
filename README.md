@@ -94,10 +94,15 @@
 
 ## 📈 WakaTime 编码统计
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+<div align="center">
 
-> 💡 **想要显示编码统计？** 查看下方的设置指南！
+<img height="280em" src="https://github-readme-stats.vercel.app/api/wakatime?username=hzeyu3958-cloud&theme=tokyonight&hide_border=true&layout=compact&langs_count=8"/>
+
+</div>
+
+<!--START_SECTION:waka-->
+> WakaTime API Key 配置后，这里会自动更新最近一周的编码统计。
+<!--END_SECTION:waka-->
 
 ---
 
