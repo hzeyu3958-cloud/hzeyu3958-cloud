@@ -50,7 +50,7 @@ jobs:
                   "end": today.isoformat(),
               })
               req = urllib.request.Request(
-                  f"https://wakatime.com/api/v1/users/current/summaries?{query}",
+                  f"https://api.wakatime.com/api/v1/users/current/summaries?{query}",
                   headers={"Authorization": f"Basic {token}"},
               )
               with urllib.request.urlopen(req, timeout=30) as resp:
