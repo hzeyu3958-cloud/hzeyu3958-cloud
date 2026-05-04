@@ -12,15 +12,82 @@ jobs:
   update-readme:
     name: Update WakaTime stats
     runs-on: ubuntu-latest
-    env:
-      WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+    timeout-minutes: 5
     steps:
-      - name: Skip until WakaTime API key is configured
-        if: ${{ env.WAKATIME_API_KEY == '' }}
-        run: echo "Add WAKATIME_API_KEY in repository secrets to enable WakaTime stats."
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Update README with WakaTime stats
-        if: ${{ env.WAKATIME_API_KEY != '' }}
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ env.WAKATIME_API_KEY }}
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          python - <<'PY'
+          import base64
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+
+          readme_path = Path("README.md")
+          start = "<!--START_SECTION:waka-->"
+          end = "<!--END_SECTION:waka-->"
+          api_key = os.environ.get("WAKATIME_API_KEY", "").strip()
+
+          def make_bar(percent):
+              filled = max(0, min(20, round(percent / 5)))
+              return "█" * filled + "░" * (20 - filled)
+
+          if not api_key:
+              body = "> WakaTime API Key 配置后，这里会自动更新最近一周的编码统计。"
+          else:
+              token = base64.b64encode(api_key.encode()).decode()
+              req = urllib.request.Request(
+                  "https://wakatime.com/api/v1/users/current/stats/last_7_days",
+                  headers={"Authorization": f"Basic {token}"},
+              )
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  data = json.loads(resp.read().decode("utf-8"))["data"]
+
+              total = data.get("human_readable_total") or "0 mins"
+              daily = data.get("human_readable_daily_average") or "0 mins"
+              languages = data.get("languages", [])[:6]
+
+              lines = [
+                  f"**本周编码时间:** `{total}`",
+                  f"**日均编码时间:** `{daily}`",
+                  "",
+                  "```text",
+              ]
+              if languages:
+                  for lang in languages:
+                      name = lang.get("name", "Other")
+                      text = lang.get("text", "0 mins")
+                      percent = float(lang.get("percent", 0) or 0)
+                      lines.append(f"{name:<16} {make_bar(percent)} {percent:5.1f}%  {text}")
+              else:
+                  lines.append("暂无 WakaTime 编码数据，安装插件并编码一段时间后会显示。")
+              lines.append("```")
+              body = "\n".join(lines)
+
+          readme = readme_path.read_text(encoding="utf-8")
+          if start not in readme or end not in readme:
+              raise SystemExit("README markers not found")
+
+          before = readme.split(start, 1)[0]
+          rest = readme.split(start, 1)[1]
+          after = rest.split(end, 1)[1]
+          updated = f"{before}{start}\n{body}\n{end}{after}"
+          readme_path.write_text(updated, encoding="utf-8", newline="\n")
+          PY
+
+      - name: Commit README changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README already up to date."
+          else
+            git commit -m "docs: update WakaTime stats"
+            git push
+          fi
