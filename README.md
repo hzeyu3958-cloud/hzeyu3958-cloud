@@ -101,7 +101,12 @@
 </div>
 
 <!--START_SECTION:waka-->
-> WakaTime API Key 配置后，这里会自动更新最近一周的编码统计。
+**本周编码时间:** `0 mins`
+**日均编码时间:** `0 mins`
+
+```text
+暂无 WakaTime 编码数据，安装插件并编码一段时间后会显示。
+```
 <!--END_SECTION:waka-->
 
 ---
