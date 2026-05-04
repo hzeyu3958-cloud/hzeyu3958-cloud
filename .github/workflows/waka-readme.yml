@@ -25,7 +25,9 @@ jobs:
           import base64
           import json
           import os
+          import urllib.parse
           import urllib.request
+          from datetime import date, timedelta
           from pathlib import Path
 
           readme_path = Path("README.md")
@@ -41,16 +43,40 @@ jobs:
               body = "> WakaTime API Key 配置后，这里会自动更新最近一周的编码统计。"
           else:
               token = base64.b64encode(api_key.encode()).decode()
+              today = date.today()
+              start_date = today - timedelta(days=6)
+              query = urllib.parse.urlencode({
+                  "start": start_date.isoformat(),
+                  "end": today.isoformat(),
+              })
               req = urllib.request.Request(
-                  "https://wakatime.com/api/v1/users/current/stats/last_7_days",
+                  f"https://wakatime.com/api/v1/users/current/summaries?{query}",
                   headers={"Authorization": f"Basic {token}"},
               )
               with urllib.request.urlopen(req, timeout=30) as resp:
-                  data = json.loads(resp.read().decode("utf-8"))["data"]
+                  payload = json.loads(resp.read().decode("utf-8"))
 
-              total = data.get("human_readable_total") or "0 mins"
-              daily = data.get("human_readable_daily_average") or "0 mins"
-              languages = data.get("languages", [])[:6]
+              total_seconds = 0
+              language_seconds = {}
+              for day in payload.get("data", []):
+                  total_seconds += float(day.get("grand_total", {}).get("total_seconds") or 0)
+                  for lang in day.get("languages", []):
+                      name = lang.get("name", "Other")
+                      language_seconds[name] = language_seconds.get(name, 0) + float(lang.get("total_seconds") or 0)
+
+              def human(seconds):
+                  seconds = int(seconds)
+                  hours, rem = divmod(seconds, 3600)
+                  minutes = rem // 60
+                  if hours:
+                      return f"{hours} hrs {minutes} mins"
+                  if minutes:
+                      return f"{minutes} mins"
+                  return "0 mins"
+
+              total = human(total_seconds)
+              daily = human(total_seconds / 7)
+              languages = sorted(language_seconds.items(), key=lambda item: item[1], reverse=True)[:6]
 
               lines = [
                   f"**本周编码时间:** `{total}`",
@@ -58,11 +84,10 @@ jobs:
                   "",
                   "```text",
               ]
-              if languages:
-                  for lang in languages:
-                      name = lang.get("name", "Other")
-                      text = lang.get("text", "0 mins")
-                      percent = float(lang.get("percent", 0) or 0)
+              if languages and total_seconds > 0:
+                  for name, seconds in languages:
+                      text = human(seconds)
+                      percent = seconds / total_seconds * 100
                       lines.append(f"{name:<16} {make_bar(percent)} {percent:5.1f}%  {text}")
               else:
                   lines.append("暂无 WakaTime 编码数据，安装插件并编码一段时间后会显示。")
