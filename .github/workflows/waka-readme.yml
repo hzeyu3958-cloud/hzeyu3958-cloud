@@ -77,7 +77,8 @@ jobs:
 
               total = human(total_seconds)
               daily = human(total_seconds / 7)
-              languages = sorted(language_seconds.items(), key=lambda item: item[1], reverse=True)[:6]
+              # 显示所有语言，不限制数量
+              languages = sorted(language_seconds.items(), key=lambda item: item[1], reverse=True)
 
               lines = [
                   f"**本周编码时间:** `{total}`",
