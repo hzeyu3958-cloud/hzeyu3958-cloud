@@ -96,7 +96,7 @@
 
 <div align="center">
 
-<img height="280em" src="https://github-readme-stats.vercel.app/api/wakatime?username=hzeyu3958-cloud&theme=tokyonight&hide_border=true&layout=compact&langs_count=8"/>
+<img height="280em" src="https://github-readme-stats.vercel.app/api/wakatime?username=hzeyu3958-cloud&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&custom_title=WakaTime%20编码统计&display_format=percent"/>
 
 </div>
 
