@@ -101,23 +101,30 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `12 hrs 16 mins`
-**日均编码时间:** `1 hrs 45 mins`
+**本周编码时间:** `20 hrs 29 mins`
+**日均编码时间:** `2 hrs 55 mins`
 
 ```text
-C                █████████████░░░░░░░  65.8%  8 hrs 5 mins
-Other            ███░░░░░░░░░░░░░░░░░  14.3%  1 hrs 45 mins
-Makefile         █░░░░░░░░░░░░░░░░░░░   4.5%  33 mins
-C++              █░░░░░░░░░░░░░░░░░░░   3.5%  25 mins
-Git Config       █░░░░░░░░░░░░░░░░░░░   3.3%  24 mins
-Python           █░░░░░░░░░░░░░░░░░░░   3.1%  22 mins
-JSON             ░░░░░░░░░░░░░░░░░░░░   1.9%  14 mins
-Markdown         ░░░░░░░░░░░░░░░░░░░░   1.4%  10 mins
-Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.6%  4 mins
-PowerShell       ░░░░░░░░░░░░░░░░░░░░   0.6%  4 mins
-Protocol Buffer  ░░░░░░░░░░░░░░░░░░░░   0.3%  2 mins
-Bash             ░░░░░░░░░░░░░░░░░░░░   0.3%  2 mins
-Text             ░░░░░░░░░░░░░░░░░░░░   0.1%  0 mins
+C                ████████████░░░░░░░░  60.6%  12 hrs 25 mins
+Other            ██░░░░░░░░░░░░░░░░░░  12.0%  2 hrs 28 mins
+Objective-C      █░░░░░░░░░░░░░░░░░░░   5.0%  1 hrs 1 mins
+Python           █░░░░░░░░░░░░░░░░░░░   4.9%  59 mins
+Git Config       █░░░░░░░░░░░░░░░░░░░   3.5%  43 mins
+Makefile         ░░░░░░░░░░░░░░░░░░░░   2.3%  27 mins
+C++              ░░░░░░░░░░░░░░░░░░░░   2.0%  24 mins
+Kotlin           ░░░░░░░░░░░░░░░░░░░░   1.7%  20 mins
+JSON             ░░░░░░░░░░░░░░░░░░░░   1.7%  20 mins
+CMake            ░░░░░░░░░░░░░░░░░░░░   1.6%  20 mins
+Markdown         ░░░░░░░░░░░░░░░░░░░░   1.6%  19 mins
+Java Properties  ░░░░░░░░░░░░░░░░░░░░   1.3%  15 mins
+Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.7%  8 mins
+JSON with Comments ░░░░░░░░░░░░░░░░░░░░   0.6%  7 mins
+Protocol Buffer  ░░░░░░░░░░░░░░░░░░░░   0.2%  2 mins
+Bash             ░░░░░░░░░░░░░░░░░░░░   0.2%  2 mins
+Text             ░░░░░░░░░░░░░░░░░░░░   0.1%  1 mins
+XML              ░░░░░░░░░░░░░░░░░░░░   0.1%  1 mins
+PowerShell       ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
+Groovy           ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
 ```
 <!--END_SECTION:waka-->
 
