@@ -101,29 +101,32 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `20 hrs 29 mins`
-**日均编码时间:** `2 hrs 55 mins`
+**本周编码时间:** `21 hrs 38 mins`
+**日均编码时间:** `3 hrs 5 mins`
 
 ```text
-C                ████████████░░░░░░░░  60.6%  12 hrs 25 mins
-Other            ██░░░░░░░░░░░░░░░░░░  12.0%  2 hrs 28 mins
-Objective-C      █░░░░░░░░░░░░░░░░░░░   5.0%  1 hrs 1 mins
-Python           █░░░░░░░░░░░░░░░░░░░   4.9%  59 mins
-Git Config       █░░░░░░░░░░░░░░░░░░░   3.5%  43 mins
-Makefile         ░░░░░░░░░░░░░░░░░░░░   2.3%  27 mins
-C++              ░░░░░░░░░░░░░░░░░░░░   2.0%  24 mins
-Kotlin           ░░░░░░░░░░░░░░░░░░░░   1.7%  20 mins
-JSON             ░░░░░░░░░░░░░░░░░░░░   1.7%  20 mins
-CMake            ░░░░░░░░░░░░░░░░░░░░   1.6%  20 mins
-Markdown         ░░░░░░░░░░░░░░░░░░░░   1.6%  19 mins
-Java Properties  ░░░░░░░░░░░░░░░░░░░░   1.3%  15 mins
+C                ████████████░░░░░░░░  61.6%  13 hrs 20 mins
+Other            ██░░░░░░░░░░░░░░░░░░  11.1%  2 hrs 24 mins
+Objective-C      █░░░░░░░░░░░░░░░░░░░   4.7%  1 hrs 1 mins
+Python           █░░░░░░░░░░░░░░░░░░░   4.6%  59 mins
+Makefile         █░░░░░░░░░░░░░░░░░░░   3.4%  43 mins
+Git Config       ░░░░░░░░░░░░░░░░░░░░   2.2%  28 mins
+CMake            ░░░░░░░░░░░░░░░░░░░░   2.1%  26 mins
+JSON             ░░░░░░░░░░░░░░░░░░░░   1.8%  23 mins
+Kotlin           ░░░░░░░░░░░░░░░░░░░░   1.6%  20 mins
+JavaScript       ░░░░░░░░░░░░░░░░░░░░   1.5%  19 mins
+Markdown         ░░░░░░░░░░░░░░░░░░░░   1.3%  17 mins
+Java Properties  ░░░░░░░░░░░░░░░░░░░░   1.2%  15 mins
+C++              ░░░░░░░░░░░░░░░░░░░░   0.7%  8 mins
 Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.7%  8 mins
 JSON with Comments ░░░░░░░░░░░░░░░░░░░░   0.6%  7 mins
-Protocol Buffer  ░░░░░░░░░░░░░░░░░░░░   0.2%  2 mins
+Desktop file     ░░░░░░░░░░░░░░░░░░░░   0.3%  3 mins
+Text             ░░░░░░░░░░░░░░░░░░░░   0.3%  3 mins
 Bash             ░░░░░░░░░░░░░░░░░░░░   0.2%  2 mins
-Text             ░░░░░░░░░░░░░░░░░░░░   0.1%  1 mins
 XML              ░░░░░░░░░░░░░░░░░░░░   0.1%  1 mins
 PowerShell       ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
+Linker Script    ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
+Assembly         ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
 Groovy           ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
 ```
 <!--END_SECTION:waka-->
