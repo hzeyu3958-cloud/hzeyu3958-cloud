@@ -101,23 +101,23 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `18 hrs 14 mins`
-**日均编码时间:** `2 hrs 36 mins`
+**本周编码时间:** `17 hrs 21 mins`
+**日均编码时间:** `2 hrs 28 mins`
 
 ```text
-C                ████████████░░░░░░░░  59.1%  10 hrs 46 mins
-Other            ██░░░░░░░░░░░░░░░░░░  10.5%  1 hrs 54 mins
-Python           █░░░░░░░░░░░░░░░░░░░   7.0%  1 hrs 16 mins
-Objective-C      █░░░░░░░░░░░░░░░░░░░   5.6%  1 hrs 1 mins
-Git Config       █░░░░░░░░░░░░░░░░░░░   2.6%  28 mins
-CMake            ░░░░░░░░░░░░░░░░░░░░   2.4%  26 mins
-Makefile         ░░░░░░░░░░░░░░░░░░░░   2.4%  26 mins
-Kotlin           ░░░░░░░░░░░░░░░░░░░░   1.9%  20 mins
-JavaScript       ░░░░░░░░░░░░░░░░░░░░   1.8%  19 mins
-Markdown         ░░░░░░░░░░░░░░░░░░░░   1.6%  17 mins
-Java Properties  ░░░░░░░░░░░░░░░░░░░░   1.4%  15 mins
+C                ███████████░░░░░░░░░  57.2%  9 hrs 55 mins
+Other            ██░░░░░░░░░░░░░░░░░░  10.9%  1 hrs 53 mins
+Python           █░░░░░░░░░░░░░░░░░░░   7.4%  1 hrs 16 mins
+Objective-C      █░░░░░░░░░░░░░░░░░░░   5.9%  1 hrs 1 mins
+Git Config       █░░░░░░░░░░░░░░░░░░░   2.7%  28 mins
+CMake            █░░░░░░░░░░░░░░░░░░░   2.6%  26 mins
+Markdown         ░░░░░░░░░░░░░░░░░░░░   2.4%  25 mins
+Kotlin           ░░░░░░░░░░░░░░░░░░░░   2.0%  20 mins
+JavaScript       ░░░░░░░░░░░░░░░░░░░░   1.9%  19 mins
+Makefile         ░░░░░░░░░░░░░░░░░░░░   1.7%  17 mins
+Java Properties  ░░░░░░░░░░░░░░░░░░░░   1.5%  15 mins
 Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.8%  8 mins
-JSON             ░░░░░░░░░░░░░░░░░░░░   0.7%  7 mins
+JSON             ░░░░░░░░░░░░░░░░░░░░   0.8%  7 mins
 JSON with Comments ░░░░░░░░░░░░░░░░░░░░   0.7%  7 mins
 Text             ░░░░░░░░░░░░░░░░░░░░   0.4%  4 mins
 C++              ░░░░░░░░░░░░░░░░░░░░   0.3%  3 mins
