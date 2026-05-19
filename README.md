@@ -101,33 +101,33 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `17 hrs 21 mins`
-**日均编码时间:** `2 hrs 28 mins`
+**本周编码时间:** `17 hrs 12 mins`
+**日均编码时间:** `2 hrs 27 mins`
 
 ```text
-C                ███████████░░░░░░░░░  57.2%  9 hrs 55 mins
-Other            ██░░░░░░░░░░░░░░░░░░  10.9%  1 hrs 53 mins
-Python           █░░░░░░░░░░░░░░░░░░░   7.4%  1 hrs 16 mins
-Objective-C      █░░░░░░░░░░░░░░░░░░░   5.9%  1 hrs 1 mins
-Git Config       █░░░░░░░░░░░░░░░░░░░   2.7%  28 mins
+C                █████████░░░░░░░░░░░  46.9%  8 hrs 4 mins
+Python           ███░░░░░░░░░░░░░░░░░  15.8%  2 hrs 43 mins
+Objective-C      ██░░░░░░░░░░░░░░░░░░   7.9%  1 hrs 21 mins
+Markdown         ██░░░░░░░░░░░░░░░░░░   7.9%  1 hrs 21 mins
+Other            █░░░░░░░░░░░░░░░░░░░   4.0%  41 mins
+JSON             █░░░░░░░░░░░░░░░░░░░   3.0%  30 mins
 CMake            █░░░░░░░░░░░░░░░░░░░   2.6%  26 mins
-Markdown         ░░░░░░░░░░░░░░░░░░░░   2.4%  25 mins
-Kotlin           ░░░░░░░░░░░░░░░░░░░░   2.0%  20 mins
-JavaScript       ░░░░░░░░░░░░░░░░░░░░   1.9%  19 mins
-Makefile         ░░░░░░░░░░░░░░░░░░░░   1.7%  17 mins
-Java Properties  ░░░░░░░░░░░░░░░░░░░░   1.5%  15 mins
-Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.8%  8 mins
-JSON             ░░░░░░░░░░░░░░░░░░░░   0.8%  7 mins
+Makefile         █░░░░░░░░░░░░░░░░░░░   2.6%  26 mins
+JavaScript       ░░░░░░░░░░░░░░░░░░░░   2.3%  23 mins
+Text             ░░░░░░░░░░░░░░░░░░░░   1.9%  19 mins
+Batchfile        ░░░░░░░░░░░░░░░░░░░░   1.5%  15 mins
+Bash             ░░░░░░░░░░░░░░░░░░░░   1.0%  10 mins
 JSON with Comments ░░░░░░░░░░░░░░░░░░░░   0.7%  7 mins
-Text             ░░░░░░░░░░░░░░░░░░░░   0.4%  4 mins
-C++              ░░░░░░░░░░░░░░░░░░░░   0.3%  3 mins
-Desktop file     ░░░░░░░░░░░░░░░░░░░░   0.3%  3 mins
-Bash             ░░░░░░░░░░░░░░░░░░░░   0.3%  2 mins
-XML              ░░░░░░░░░░░░░░░░░░░░   0.1%  1 mins
+Desktop file     ░░░░░░░░░░░░░░░░░░░░   0.7%  7 mins
+Git Config       ░░░░░░░░░░░░░░░░░░░░   0.4%  4 mins
+C++              ░░░░░░░░░░░░░░░░░░░░   0.4%  3 mins
+Kotlin           ░░░░░░░░░░░░░░░░░░░░   0.2%  2 mins
 PowerShell       ░░░░░░░░░░░░░░░░░░░░   0.1%  0 mins
 Linker Script    ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
+YAML             ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
 Assembly         ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
-Groovy           ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
+CSS              ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
+HTML             ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
 ```
 <!--END_SECTION:waka-->
 
