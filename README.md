@@ -101,20 +101,18 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `10 hrs 57 mins`
-**日均编码时间:** `1 hrs 33 mins`
+**本周编码时间:** `10 hrs 9 mins`
+**日均编码时间:** `1 hrs 27 mins`
 
 ```text
-C                ███████░░░░░░░░░░░░░  34.0%  3 hrs 43 mins
-Other            ████░░░░░░░░░░░░░░░░  17.9%  1 hrs 57 mins
-YAML             ███░░░░░░░░░░░░░░░░░  14.3%  1 hrs 33 mins
-JavaScript       ██░░░░░░░░░░░░░░░░░░  11.4%  1 hrs 14 mins
-Batchfile        ██░░░░░░░░░░░░░░░░░░  10.9%  1 hrs 11 mins
-Git Config       █░░░░░░░░░░░░░░░░░░░   6.6%  43 mins
-PowerShell       █░░░░░░░░░░░░░░░░░░░   3.2%  20 mins
-Python           ░░░░░░░░░░░░░░░░░░░░   1.0%  6 mins
-JSON             ░░░░░░░░░░░░░░░░░░░░   0.4%  2 mins
-Markdown         ░░░░░░░░░░░░░░░░░░░░   0.3%  1 mins
+Python           ██████░░░░░░░░░░░░░░  29.8%  3 hrs 1 mins
+C                ██████░░░░░░░░░░░░░░  29.4%  2 hrs 59 mins
+Other            ████░░░░░░░░░░░░░░░░  21.3%  2 hrs 9 mins
+YAML             ███░░░░░░░░░░░░░░░░░  15.4%  1 hrs 33 mins
+PowerShell       █░░░░░░░░░░░░░░░░░░░   3.2%  19 mins
+JSON             ░░░░░░░░░░░░░░░░░░░░   0.5%  2 mins
+Markdown         ░░░░░░░░░░░░░░░░░░░░   0.4%  2 mins
+Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.1%  0 mins
 ```
 <!--END_SECTION:waka-->
 
