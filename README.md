@@ -101,16 +101,15 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `7 hrs 50 mins`
-**日均编码时间:** `1 hrs 7 mins`
+**本周编码时间:** `4 hrs 9 mins`
+**日均编码时间:** `35 mins`
 
 ```text
-Python           ████████░░░░░░░░░░░░  38.6%  3 hrs 1 mins
-Other            ████░░░░░░░░░░░░░░░░  22.5%  1 hrs 45 mins
-YAML             ████░░░░░░░░░░░░░░░░  19.9%  1 hrs 33 mins
-C                ████░░░░░░░░░░░░░░░░  18.5%  1 hrs 26 mins
-Markdown         ░░░░░░░░░░░░░░░░░░░░   0.5%  2 mins
-Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.1%  0 mins
+Python           ███████████████░░░░░  72.9%  3 hrs 1 mins
+C                ████░░░░░░░░░░░░░░░░  21.0%  52 mins
+Other            █░░░░░░░░░░░░░░░░░░░   5.0%  12 mins
+Markdown         ░░░░░░░░░░░░░░░░░░░░   0.9%  2 mins
+Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.2%  0 mins
 ```
 <!--END_SECTION:waka-->
 
