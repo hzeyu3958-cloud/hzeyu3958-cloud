@@ -101,12 +101,12 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `13 hrs 56 mins`
-**日均编码时间:** `1 hrs 59 mins`
+**本周编码时间:** `12 hrs 56 mins`
+**日均编码时间:** `1 hrs 50 mins`
 
 ```text
-Python           ███████████████████░  96.1%  13 hrs 24 mins
-Markdown         █░░░░░░░░░░░░░░░░░░░   3.7%  31 mins
+Python           ███████████████████░  95.8%  12 hrs 24 mins
+Markdown         █░░░░░░░░░░░░░░░░░░░   4.0%  31 mins
 Batchfile        ░░░░░░░░░░░░░░░░░░░░   0.2%  1 mins
 Other            ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
 ```
