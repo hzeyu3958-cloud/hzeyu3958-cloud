@@ -101,12 +101,11 @@
 </div>
 
 <!--START_SECTION:waka-->
-**本周编码时间:** `9 hrs 59 mins`
-**日均编码时间:** `1 hrs 25 mins`
+**本周编码时间:** `0 mins`
+**日均编码时间:** `0 mins`
 
 ```text
-Python           ████████████████████ 100.0%  9 hrs 59 mins
-Other            ░░░░░░░░░░░░░░░░░░░░   0.0%  0 mins
+暂无 WakaTime 编码数据，安装插件并编码一段时间后会显示。
 ```
 <!--END_SECTION:waka-->
 
