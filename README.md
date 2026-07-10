@@ -78,36 +78,6 @@
 
 ---
 
-## 🔥 热门项目
-
-<div align="center">
-
-[![STM32 DHT11](https://github-readme-stats.vercel.app/api/pin/?username=hzeyu3958-cloud&repo=lcd_dht11&theme=tokyonight&hide_border=true)](https://github.com/hzeyu3958-cloud/lcd_dht11)
-[![Aviation System](https://github-readme-stats.vercel.app/api/pin/?username=hzeyu3958-cloud&repo=aviation-flight-system-web&theme=tokyonight&hide_border=true)](https://github.com/hzeyu3958-cloud/aviation-flight-system-web)
-
-[![Dorm Management](https://github-readme-stats.vercel.app/api/pin/?username=hzeyu3958-cloud&repo=dorm-management-system-web&theme=tokyonight&hide_border=true)](https://github.com/hzeyu3958-cloud/dorm-management-system-web)
-[![BVH Animation](https://github-readme-stats.vercel.app/api/pin/?username=hzeyu3958-cloud&repo=bvh-animation&theme=tokyonight&hide_border=true)](https://github.com/hzeyu3958-cloud/bvh-animation)
-
-</div>
-
----
-
-## 📈 WakaTime 编码统计
-
-<div align="center">
-
-<img height="280em" src="https://github-readme-stats.vercel.app/api/wakatime?username=hzeyu3958-cloud&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&custom_title=WakaTime%20编码统计&display_format=percent"/>
-
-</div>
-
-<!--START_SECTION:waka-->
-**本周编码时间:** `0 mins`
-**日均编码时间:** `0 mins`
-
-```text
-暂无 WakaTime 编码数据，安装插件并编码一段时间后会显示。
-```
-<!--END_SECTION:waka-->
 
 ---
 
