@@ -2,21 +2,6 @@
 
 *一个热爱编程的开发者 | 嵌入式 · Web · 系统开发*
 
-<div align="center">
-
-[![GitHub Followers](https://img.shields.io/github/followers/hzeyu3958-cloud?style=for-the-badge&logo=github&label=FOLLOWERS&color=blue)](https://github.com/hzeyu3958-cloud?tab=followers)
-[![GitHub Stars](https://img.shields.io/github/stars/hzeyu3958-cloud?style=for-the-badge&logo=github&label=STARS&color=yellow)](https://github.com/hzeyu3958-cloud?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=hzeyu3958-cloud&color=blueviolet&style=for-the-badge)](https://github.com/hzeyu3958-cloud)
-
-</div>
-
----
-
----
-
-
-
----
 
 ## 📊 GitHub 统计
 
