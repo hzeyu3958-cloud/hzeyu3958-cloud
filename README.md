@@ -12,36 +12,9 @@
 
 ---
 
-## 🚀 关于我
-
-- 🔭 目前在做 **嵌入式开发** 和 **Web应用开发**
-- 💻 擅长 **STM32、C/C++、Java、JavaScript**
-- 🌱 正在学习 **物联网技术、系统架构设计**
-- 🎯 2026目标：深入学习嵌入式系统和全栈开发
-- 📫 联系我: **1419439987@qq.com**
-- ⚡ 有趣的事: 从硬件到软件，从底层到应用，全栈探索中
-
 ---
 
-## 🛠️ 技术栈
 
-### 💾 嵌入式开发
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-
-### 🌐 Web开发
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### 🔧 工具 & 平台
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Keil](https://img.shields.io/badge/Keil_MDK-00599C?style=for-the-badge&logo=arm&logoColor=white)
-![Proteus](https://img.shields.io/badge/Proteus-0078D4?style=for-the-badge&logo=proteus&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -68,15 +41,7 @@
 
 ---
 
-## 🏆 GitHub 成就
 
-<div align="center">
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=hzeyu3958-cloud&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7)
-
-</div>
-
----
 
 
 ---
