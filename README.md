@@ -10,8 +10,6 @@
 
 <div align="center">
 
-### 💡 *"代码改变世界，创新驱动未来"*
-
 ![Snake animation](https://raw.githubusercontent.com/hzeyu3958-cloud/hzeyu3958-cloud/output/github-contribution-grid-snake-dark.svg)
 
 **⭐ 如果你喜欢我的项目，欢迎给个Star！**
