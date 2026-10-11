@@ -18,10 +18,6 @@
 
 [![yangyang's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hzeyu3958-cloud&show_icons=true&include_all_commits=true&count_private=true)](https://github.com/hzeyu3958-cloud)
 
-<br>
-
-![Snake animation](https://raw.githubusercontent.com/hzeyu3958-cloud/hzeyu3958-cloud/output/github-contribution-grid-snake-dark.svg)
-
 **⭐ 如果你喜欢我的项目，欢迎给个 Star！**
 
 </div>
