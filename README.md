@@ -14,7 +14,6 @@
 [![Stars](https://img.shields.io/github/stars/hzeyu3958-cloud?affiliations=OWNER&style=for-the-badge&label=STARS&labelColor=7C5230&color=F2E3C0&logo=github&logoColor=white)](https://github.com/hzeyu3958-cloud?tab=repositories)
 [![Follow](https://img.shields.io/badge/FOLLOW%20%40HZEYU3958--CLOUD-7C5230?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hzeyu3958-cloud?tab=follow)
 
-[![E-Mail](https://img.shields.io/badge/E--MAIL-HZEYU3958%40OUTLOOK.COM-7C5230?style=for-the-badge&labelColor=7C5230&color=F2E3C0)](mailto:hzeyu3958@outlook.com)
 
 [![yangyang's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hzeyu3958-cloud&show_icons=true&include_all_commits=true&count_private=true)](https://github.com/hzeyu3958-cloud)
 
